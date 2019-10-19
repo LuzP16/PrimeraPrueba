@@ -1,27 +1,27 @@
 
 public class Main {
 	
-	int s=0;
+	int e=0;
    
-	public static void salida(String nombre) {
+	public static void name(String nombre) {
 		
-		System.out.println("Hola esto es una prueba: " + nombre);
+		System.out.println("Nombre: " + nombre);
 		
 	}
 	
-	public int antes(int n) {
+	public int age(int n) {
 		
-		s= n+2;
-		return s;
+		e= 2019-n;
+		return e;
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		Main c = new Main();
-		salida("MARIMAR");
-		c.antes(2);
-		System.out.println("Suma :" + c.s);
+		name("MARIMAR");
+		c.age(1998);
+		System.out.println("Edad : " + c.e);
 	}
 
 }
